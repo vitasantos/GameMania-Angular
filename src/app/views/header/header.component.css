@@ -1,0 +1,203 @@
+header{
+    height: 80px;
+    background-color: white;
+    position: relative;
+}
+
+.container-grid{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 258.28px;
+}
+
+.logo2{
+    width: 93px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+ 
+}
+
+
+.menu-centro{
+    width: 348px;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+.menu-centro a:hover{
+    font-weight: bolder;
+    color: #333333;
+}
+
+.link-menu-barras{
+    display: none;
+    width: 18px;
+}
+
+
+.menu-lateral{
+    width: 104px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.btn{
+    background-image: url(/assets/img/bag\ 1.png);
+    padding: 0px;
+    
+}
+ 
+
+.busca{
+    width: 180px;
+}
+
+.menu2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 284px;
+}
+
+.menu-lateralMobile{
+    display: none;
+}
+
+#divBusca{
+    background-color:#f2f2f2;
+     
+    border-radius:25px;
+    width:180px;
+    height: 40px;
+    display: flex;
+    flex-direction: row; 
+    
+    align-items: center;
+    margin-right: 0px;
+  }
+  
+  #txtBusca{
+    float:right;
+    background-color:transparent;
+    color: #828282;
+    padding-left:16px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size:14px;
+    border:none;
+    height:17px;
+    width:150px;
+    outline: none;
+  }
+
+  .imgBusca{
+      width: 22px;
+      height: 22px;
+      
+  }
+
+  .menu3{
+      display: none;
+  }
+
+  #divBusca2{
+    background-color:#f2f2f2;
+
+    width:100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 0px;
+  }
+
+.link-lat{
+    width: 21.84;
+}
+
+.link-menu{
+    color: #333333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    
+}
+
+.link-menu:hover{
+    font-weight: bold;
+}
+
+@media screen and (max-width : 768px) {
+     
+    .cabecalho .menuAtivo{
+        display: flex;
+    }
+
+    .link-menu-barras{
+        display: inline-block;
+        padding-right: 30px;
+ 
+    }
+
+    .menu-centro{
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        background-color: #f2f2f2;
+        height: 300px;
+        width: 100vw;
+        justify-content: space-around;
+        position: absolute;
+        top: 80px;
+        right: 0px;
+    }
+
+    .menu2{
+        display: none;
+    }
+
+    .menu3{
+        display: flex;
+    }
+
+    .menu-lateralMobile{
+        display: flex;
+        padding-left: 10px;
+        
+    }
+
+    .menu-lateralMobile .link-lat{
+        margin-left: 15px;
+        
+    }
+
+    .cabecalho{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 100%;
+        
+    }
+
+    .cabecalho .logo{
+        max-width: 100%;
+    }
+
+    header{
+        max-width: 100%;
+    }
+}

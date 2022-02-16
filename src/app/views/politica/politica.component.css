@@ -1,0 +1,41 @@
+/*politica de privacidade*/
+
+.politica{
+    background-color: #f2f2f2;
+}
+
+.conteudo-politica {
+    background-color: #f2f2f2;
+    padding: 85px;
+    background-size: cover;
+    text-align: justify;
+     
+}
+
+.politica p , br, li{
+    color: #333333;
+    font-family: 'Montserrat';
+    
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.politica h2, h3{
+    text-transform: uppercase;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.politica a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.politica a:hover{
+    text-decoration: underline;
+}
+
+
+
+ 

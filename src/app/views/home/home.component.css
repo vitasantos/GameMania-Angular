@@ -1,0 +1,962 @@
+ 
+header{
+    height: 80px;
+    background-color: white;
+    position: relative;
+}
+
+
+
+.logo{
+    width: 258.28px;
+}
+
+.logo2{
+    width: 93px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+ 
+}
+
+
+.menu-centro{
+    width: 348px;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+.menu-centro a:hover{
+    font-weight: bolder;
+    color: #333333;
+}
+
+.link-menu-barras{
+    display: none;
+    width: 18px;
+}
+
+
+.menu-lateral{
+    width: 104px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.btn{
+    background-image: url(/assets/img/bag\ 1.png);
+    padding: 0px;
+    
+}
+ 
+
+.busca{
+    width: 180px;
+}
+
+.menu2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 284px;
+}
+
+.menu-lateralMobile{
+    display: none;
+}
+
+#divBusca{
+    background-color:#f2f2f2;
+     
+    border-radius:25px;
+    width:180px;
+    height: 40px;
+    display: flex;
+    flex-direction: row; 
+    
+    align-items: center;
+    margin-right: 0px;
+  }
+  
+  #txtBusca{
+    float:right;
+    background-color:transparent;
+    color: #828282;
+    padding-left:16px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size:14px;
+    border:none;
+    height:17px;
+    width:150px;
+    outline: none;
+  }
+
+  .imgBusca{
+      width: 22px;
+      height: 22px;
+      
+  }
+
+  .menu3{
+      display: none;
+  }
+
+  #divBusca2{
+    background-color:#f2f2f2;
+
+    width:100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 0px;
+  }
+
+.link-lat{
+    width: 21.84;
+}
+
+.link-menu{
+    color: #333333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    
+}
+
+.link-menu:hover{
+    font-weight: bold;
+}
+
+.destaque{
+    width: 100%;
+    height: 688px;
+    background-image: url(/assets/img/Destaque.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+.conteudo-destaque{
+    padding-top: 166px;
+    padding-left: 105px;
+}
+
+.titulo-destaque{
+    text-transform: uppercase;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    width: 506px;
+    font-size: 26px;
+    
+
+
+}
+
+.descricao-destaque{
+    color: #333333;
+    font-family: 'Montserrat';
+    width: 506px;
+    font-weight: 300;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.img-destaque{
+    display: none;
+}
+
+.produto-cta{
+    background-image: url(/assets/img/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50px;
+    max-width: 1035px;
+    margin-top: 77px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.produto-cta p {
+    font-family: 'barlow condensed';
+    text-transform: uppercase;
+}
+
+.produto-cta a {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    padding-top: 8px;
+}
+
+.produto-cta a:hover{
+    font-weight: bolder;
+    color:#ffffff
+}
+
+.cta-botao{
+    background-image: url(/assets/img/botao.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40px;
+    width: 165px;
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+    color: #ffffff;
+    margin-right: 15px;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 2px;
+    
+}
+
+
+
+.populares{
+    height: 679px;
+    background-image: url(/assets/img/Mais\ Populares.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.populares h1{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    padding-top: 98px;
+    padding-bottom: 40px;
+}
+
+.populares .destaques-populares {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+/* .carousel-control-prev-icon {
+    background-color: #000;
+}
+
+.carousel-control-next-icon {
+    background-color: #000;
+} */
+
+.populares .destaques-populares .destaques .destaque-descricao p{
+    font-family:'Barlow' ;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #828282;
+    font-size: 14px;
+}
+
+.populares .destaques-populares .destaques .destaque-descricao h3{
+    font-family: 'Barlow Condensed';
+    font-weight: 400;
+    padding-top: 20px;
+    letter-spacing: 2px;
+    color: #333333;
+    font-size: 18px;
+}
+
+.destaque-descricao p{
+    font-family:'Barlow' ;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #828282;
+    font-size: 14px;
+}
+
+.destaque-descricao h3{
+    font-family: 'Barlow Condensed';
+    font-weight: 400;
+    padding-top: 20px;
+    letter-spacing: 2px;
+    color: #333333;
+    font-size: 18px;
+}
+
+
+.destaquesMobile{
+    display: none;
+  
+    
+}
+
+.destaquesTablet{
+    display: none;
+}
+
+#carouselExampleControls2 .carousel {
+    display: none;
+}
+
+
+
+.categorias{
+    height: 655px;
+    background-color: #ffffff;
+
+}
+
+.categorias h1{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+    display: flex; 
+    justify-content: center;
+    padding-top: 95px;
+    padding-bottom: 40px;
+    font-size: 24px;
+    
+
+}
+
+.categorias .menucategorias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.categorias .menucategorias .elemento-categorias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.menuCategorias-Tablet{
+    display: none;
+}
+
+.categorias .menu-categorias-desc a{
+    
+    justify-content: space-between;
+    text-decoration: none;
+    font-family: 'Montserrat' ;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+    
+    
+}
+
+.story{
+    height: 688px;
+    background-image: url(/assets/img/Story.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+
+}
+
+.conteudo-story{
+    max-width: 506px; 
+    height: 316px;
+ 
+}
+
+
+
+.story h1 {
+    font-family: 'Montserrat';
+    color: #333333;
+    font-size: 42px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.story h3{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #333333;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.story a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 13px;
+
+}
+
+.story-botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 130px;
+}
+
+.story-botao .b1{
+    padding-right: 30px;
+}
+
+.story-botao a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.story-botao a:hover{
+    font-weight: bolder;
+}
+
+.story-botao-compre{
+    background-image: url(/assets/img/botao2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.story-botao-explore{
+    background-image: url(/assets/img/botao\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.espaco{
+    height: 50px;
+    background-color: #ffffff;
+}
+
+.newsletter{
+    height: 120px;
+    background-color: #828282;
+    display: flex;
+    align-items: center;
+    padding-left: 42px;
+    justify-content: center;
+    
+
+}
+
+.newsletter h3 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    display: flex;
+    height: 45px;
+    width: 693px;
+}
+
+.newsletter .conteudo-news{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1045px;
+    margin-right: 0px;
+}
+
+
+#divEmail{
+    background-color:#f2f2f2;
+     
+    border-radius:25px;
+    width:264px;
+    height: 40px;
+    display: flex;
+    flex-direction: row; 
+    
+    align-items: center;
+    
+  }
+  
+  #txtEmail{
+    float:right;
+    background-color:transparent;
+    color: #828282;
+    padding-left:16px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size:14px;
+    border:none;
+    height:17px;
+    width:225px;
+    outline: none;
+  }
+
+  .imgEmail{
+      width: 27px;
+      height: 27px;
+      
+  }
+
+.sitemap{
+    height: 240px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.sitemap .menuRodape a{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+
+}
+
+.sitemap .menuRodape a:hover{
+    text-decoration: underline;
+}
+
+.sitemap .menuRodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 64px;
+}
+
+
+
+.sitemap .menuRodape .map{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+     margin-right: 70px;
+   
+    
+    
+}
+
+.sitemap .menuRodape .map .map-titulo{
+    margin-bottom: 20px;
+}
+
+.sitemap .menuRodape .map .map-titulo2{
+    display: none;
+}
+
+footer{
+    height: 80px;
+    background-color: #333333;
+    
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+}
+
+.menuRodape h3{
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.redesSociais{
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.redes{
+    width: 30px;
+}
+
+.rodape p{
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+
+p{
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width:1200px) {
+    .container-grid{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 1120px){
+    .newsletter{
+        padding-left: 60px;
+    }
+
+    .newsletter .conteudo-news {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .newsletter .conteudo-news .texto{
+        margin-bottom: 7px;
+    }
+    
+}
+
+@media screen and (max-width: 1012px) {
+    .cont-categoria .menucategorias{
+        display: none;
+    }
+
+    .menuCategorias-Tablet{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menuCategorias-Tablet .linha1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .menuCategorias-Tablet .linha2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .categorias .menuCategorias-Tablet .elemento-categorias{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+}
+
+@media screen and (max-width: 980px){
+
+    .destaquesT1{
+        margin-right: 55px;
+    }
+
+    .destaquesTablet{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .populares .destaques-populares .destaquesTablet .destaque-descricao p{
+        font-family:'Barlow' ;
+        font-weight: 400;
+        letter-spacing: 2px;
+        color: #828282;
+        font-size: 14px;
+    }
+    
+    .populares .destaques-populares .destaquesTablet .destaque-descricao h3{
+        font-family: 'Barlow Condensed';
+        font-weight: 400;
+        padding-top: 20px;
+        letter-spacing: 2px;
+        color: #333333;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+     
+    .cabecalho .menuAtivo{
+        display: flex;
+    }
+
+    .link-menu-barras{
+        display: inline-block;
+        padding-right: 30px;
+ 
+    }
+
+    .menu-centro{
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        background-color: #f2f2f2;
+        height: 300px;
+        width: 100vw;
+        justify-content: space-around;
+        position: absolute;
+        top: 80px;
+        right: 0px;
+    }
+
+    .menu2{
+        display: none;
+    }
+
+    .menu3{
+        display: flex;
+    }
+
+    .menu-lateralMobile{
+        display: flex;
+        padding-left: 10px;
+        
+    }
+
+    .menu-lateralMobile .link-lat{
+        margin-left: 15px;
+        
+    }
+
+    .cabecalho{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+
+    .cabecalho .logo{
+        max-width: 100%;
+    }
+
+    .destaque{
+        width: 100%;
+        background-image: radial-gradient(circle, #f5f5f5,#e5e5e5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    
+    .conteudo-destaque{
+        padding-top: 75px;
+        padding-left: 40px;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        align-items: flex-start;
+        
+    }
+
+    .titulo-destaque{
+        margin: 0px;
+        width: auto;
+    }
+
+    .descricao-destaque{
+        margin: 0px;
+        width: auto;
+    }
+
+    .img-destaque{
+        display: flex;
+        margin: 10px;
+    }
+   
+    .produto-cta{
+        background-color: #ffffff;
+        height: 144px;
+        width: 277px;
+        margin-top: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+
+     .item{
+         padding: 0px;
+     }
+    
+     .cta-botao{
+         margin: 8px;
+     }
+
+     .conteudo-story{
+         width: auto;
+         margin: 0px;
+     }
+
+     .destaquesMobile{
+        display: flex;
+        flex-direction: column;
+ 
+    }
+
+    .destaquesTablet{
+        display: none;
+    }
+
+    .populares .destaques-populares .destaquesMobile .destaque-descricao p{
+        font-family:'Barlow' ;
+        font-weight: 400;
+        letter-spacing: 2px;
+        color: #828282;
+        font-size: 14px;
+    }
+    
+    .populares .destaques-populares .destaquesMobile .destaque-descricao h3{
+        font-family: 'Barlow Condensed';
+        font-weight: 400;
+        padding-top: 20px;
+        letter-spacing: 2px;
+        color: #333333;
+        font-size: 18px;
+    }
+
+    .menuCategorias-Tablet{
+        display: none;
+    }
+
+     .categorias{
+         height: auto;
+         margin-bottom: 30px;
+     }
+
+     .categorias .menucategorias .elemento-categorias {
+        margin-bottom: 40px;
+    }
+
+     .categorias .menucategorias{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .newsletter{
+         
+        padding-left: 18px;
+        height: 142px;
+    
+    }
+
+    .newsletter h3 {
+        width: auto;
+    }
+
+    .conteudo-news{
+        width: auto;
+    }
+
+    .newsletter .conteudo-news {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .newsletter .conteudo-news .texto{
+        margin-bottom: 7px;
+    }
+    
+    .sitemap{
+        height: auto;
+    }
+
+    .sitemap .menuRodape{
+        padding: 20px 0px;
+    }
+
+
+
+}
+
+@media screen and (max-width : 430px){
+    .newsletter .conteudo-news .texto{
+        margin-bottom: 20px;
+    }
+
+    .story-botao{
+        display: flex;
+        flex-direction: column;
+        padding-top: 55px;
+    }
+
+    .story-botao .b2{
+        margin: 15px 0px;
+    }
+
+    .sitemap .menuRodape .map .map-titulo2{
+        display: flex;
+    }
+
+    .rodape .redesSociais{
+        display: none;
+    }
+ 
+}
+
+@media screen and (max-width : 320px){
+    .newsletter .conteudo-news .texto{
+        margin-bottom: 35px;
+    }
+}
+ 
+@media screen and (max-width : 700px){
+    .map-conteudo{
+        display: none;
+    }
+
+    .map{
+        margin-right: 0px;
+    }
+
+    .sitemap .menuRodape{
+ 
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+}

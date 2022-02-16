@@ -1,0 +1,149 @@
+ 
+.ajuda{
+    background-color: #f2f2f2;
+ 
+}
+
+#divProcure{
+    background-color:#ffffff;
+     
+    border-radius:25px;
+    width:320px;
+    height: 40px;
+    display: flex;
+    flex-direction: row; 
+    
+    align-items: center;
+    margin-right: 0px;
+  }
+  
+  #txtProcure{
+    float:right;
+    background-color:transparent;
+    color: #828282;
+    padding-left:16px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size:14px;
+    border:none;
+    height:17px;
+    width:280px;
+    outline: none;
+  }
+
+  .imgProcure{
+      width: 22px;
+      height: 22px;
+      
+  }
+
+.ajuda{
+    height: 980px;
+    display: flex;
+    
+}
+
+.ajuda .conteudo-ajuda{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.ajuda .conteudo-ajuda .titulo-ajuda{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center ;
+    margin: 70px;
+}
+
+.ajuda .ajuda-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+     
+     
+}
+
+.ajuda .ajuda-items .a1{
+    background-image: url(/assets/img/perfil\ \(1\).png);
+    width: 270px;
+    height: 190px;
+    padding-top: 35px;
+}
+
+.ajuda .ajuda-items .a2{
+    background-image: url(/assets/img/sacola.png);
+    width: 270px;
+    height: 190px;
+    padding-top: 35px;
+}
+
+.ajuda .ajuda-items .a3{
+    background-image: url(/assets/img/cartao.png);
+    width: 270px;
+    height: 190px;
+    padding-top: 35px;
+}
+
+.ajuda .ajuda-items .a4{
+    background-image: url(/assets/img/caixa.png);
+    width: 270px;
+    height: 190px;
+    padding-top: 35px;
+}
+
+.ajuda .ajuda-items .a5{
+    background-image: url(/assets/img/troca\ \(1\).png);
+    width: 270px;
+    height: 190px;
+    padding-top: 35px;
+}
+
+.ajuda .ajuda-items .a6{
+    background-image: url(/assets/img/presene.png);
+    width: 270px;
+    height: 190px;
+    padding-top: 35px;
+}
+
+.ajuda .ajuda-items .a7{
+    background-image: url(/assets/img/promocao\ \(1\).png);
+    width: 270px;
+    height: 190px;
+    padding-top: 35px;
+}
+
+.ajuda .ajuda-items .a8{
+    background-image: url(/assets/img/cadeado\ \(1\).png);
+    width: 270px;
+    height: 190px;
+    padding-top: 35px;
+}
+
+.ajuda .ajuda-items a{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #333333;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    width: 270px;
+    height: 190px;
+    font-size: 18px;
+}
+
+.ajuda .ajuda-items a:hover{
+    font-weight: bold;
+}
+
+.ajuda h2{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-transform: uppercase;
+}

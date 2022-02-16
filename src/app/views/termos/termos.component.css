@@ -1,0 +1,40 @@
+ 
+
+/*Termos de uso*/
+
+.termos{
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.conteudoTermos {
+    background-color: #f2f2f2;
+    padding: 85px;
+    background-size: cover;
+    text-align: justify;
+     
+}
+
+.termos p , br, li{
+    color: #333333;
+    font-family: 'Montserrat';
+    
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.termos h2, h3{
+    text-transform: uppercase;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.termos a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.termos a:hover{
+    text-decoration: underline;
+}

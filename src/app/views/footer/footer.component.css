@@ -1,0 +1,49 @@
+footer{
+    height: 80px;
+    background-color: #333333;
+    
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+}
+
+.menuRodape h3{
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.redesSociais{
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.redes{
+    width: 30px;
+}
+
+.rodape p{
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+
+p{
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width : 430px){
+     
+
+    .rodape .redesSociais{
+        display: none;
+    }
+ 
+}
