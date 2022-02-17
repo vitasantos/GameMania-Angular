@@ -1,0 +1,17 @@
+<main>
+    <form #loginForm="ngForm" (ngSubmit)="onSubmit()" id="login">
+        
+        <div class="campo-label">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="  Digite seu email" [(ngModel)]="loginModel.email">
+        </div>
+        <div class="campo-label">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" placeholder="  Digite sua senha" [(ngModel)]="loginModel.password">
+        </div>
+        
+        <input id="botao-enviar" type="submit" value="Fazer Login">
+
+        
+    </form>
+</main>

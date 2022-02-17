@@ -11,6 +11,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProdutosComponent } from './views/produtos/produtos.component';
 import { PoliticaComponent } from './views/politica/politica.component';
 import { TermosComponent } from './views/termos/termos.component';
+import { LoginComponent } from './views/login/login.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,11 +24,13 @@ import { TermosComponent } from './views/termos/termos.component';
     ProdutosComponent,
     PoliticaComponent,
     TermosComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
