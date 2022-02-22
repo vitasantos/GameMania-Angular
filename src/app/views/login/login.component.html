@@ -1,4 +1,5 @@
 <main>
+    <div class="acesso">
     <form #loginForm="ngForm" (ngSubmit)="onSubmit()" id="login">
         
         <div class="campo-label">
@@ -12,6 +13,11 @@
         
         <input id="botao-enviar" type="submit" value="Fazer Login">
 
-        
+        <div class="mensagem">
+            <p id="mensagem" *ngIf=" mensagem != '' ">{{ mensagem }}</p>
+            </div>
     </form>
+</div>
+    
+       
 </main>
